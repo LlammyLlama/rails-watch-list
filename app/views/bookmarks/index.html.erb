@@ -1,0 +1,12 @@
+<h1>Bookmarks#index</h1>
+<p>Find me in app/views/bookmarks/index.html.erb</p>
+
+<ul>
+  <% @bookmarks.each do |b| %>
+  <li><%= b.comment %></li>
+  <li><%= b.movie_id %></li>
+  <li><%= b.list_id %></li>
+  <% end %>
+</ul>
+
+</p>
